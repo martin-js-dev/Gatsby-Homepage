@@ -11,6 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        tailwindConfig: `tailwind.config.js`,
         name: "images",
         path: "./src/images/",
       },
@@ -18,3 +19,5 @@ module.exports = {
     },
   ],
 };
+
+
